@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bc_cnpm", "bc_cnpm.csproj", "{0774BEB5-0789-4270-B7FD-843BF093B58D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "baocao_cnpm", "..\baocao_cnpm\baocao_cnpm.vdproj", "{7E198DD7-4B2E-403D-82F5-67DC48325266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0774BEB5-0789-4270-B7FD-843BF093B58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0774BEB5-0789-4270-B7FD-843BF093B58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0774BEB5-0789-4270-B7FD-843BF093B58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0774BEB5-0789-4270-B7FD-843BF093B58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E198DD7-4B2E-403D-82F5-67DC48325266}.Debug|Any CPU.ActiveCfg = Debug
+		{7E198DD7-4B2E-403D-82F5-67DC48325266}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8841716-C414-45D0-9D2F-92274669C562}
+	EndGlobalSection
+EndGlobal
