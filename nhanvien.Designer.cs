@@ -149,7 +149,7 @@
             // btnxoanv
             // 
             this.btnxoanv.Image = ((System.Drawing.Image)(resources.GetObject("btnxoanv.Image")));
-            this.btnxoanv.Location = new System.Drawing.Point(348, 108);
+            this.btnxoanv.Location = new System.Drawing.Point(358, 108);
             this.btnxoanv.Name = "btnxoanv";
             this.btnxoanv.Size = new System.Drawing.Size(79, 32);
             this.btnxoanv.TabIndex = 39;
