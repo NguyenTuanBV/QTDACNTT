@@ -45,18 +45,21 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(415, 27);
+            this.label1.Location = new System.Drawing.Point(830, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 25);
+            this.label1.Size = new System.Drawing.Size(201, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thống kê";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvmuanhieu);
-            this.groupBox1.Location = new System.Drawing.Point(236, 104);
+            this.groupBox1.Location = new System.Drawing.Point(472, 200);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(358, 142);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(764, 293);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sản phẩm bán chạy nhất năm 2020:";
@@ -65,17 +68,20 @@
             // 
             this.dgvmuanhieu.AllowUserToAddRows = false;
             this.dgvmuanhieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvmuanhieu.Location = new System.Drawing.Point(6, 19);
+            this.dgvmuanhieu.Location = new System.Drawing.Point(12, 37);
+            this.dgvmuanhieu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dgvmuanhieu.Name = "dgvmuanhieu";
-            this.dgvmuanhieu.Size = new System.Drawing.Size(346, 109);
+            this.dgvmuanhieu.RowHeadersWidth = 82;
+            this.dgvmuanhieu.Size = new System.Drawing.Size(740, 244);
             this.dgvmuanhieu.TabIndex = 0;
             // 
             // btninbanchay
             // 
             this.btninbanchay.Image = ((System.Drawing.Image)(resources.GetObject("btninbanchay.Image")));
-            this.btninbanchay.Location = new System.Drawing.Point(62, 123);
+            this.btninbanchay.Location = new System.Drawing.Point(124, 237);
+            this.btninbanchay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btninbanchay.Name = "btninbanchay";
-            this.btninbanchay.Size = new System.Drawing.Size(106, 41);
+            this.btninbanchay.Size = new System.Drawing.Size(212, 79);
             this.btninbanchay.TabIndex = 1;
             this.btninbanchay.Text = "In thông tin";
             this.btninbanchay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -86,9 +92,10 @@
             // btndong
             // 
             this.btndong.Image = ((System.Drawing.Image)(resources.GetObject("btndong.Image")));
-            this.btndong.Location = new System.Drawing.Point(62, 191);
+            this.btndong.Location = new System.Drawing.Point(124, 367);
+            this.btndong.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btndong.Name = "btndong";
-            this.btndong.Size = new System.Drawing.Size(106, 41);
+            this.btndong.Size = new System.Drawing.Size(212, 79);
             this.btndong.TabIndex = 2;
             this.btndong.Text = "Đóng";
             this.btndong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -99,23 +106,25 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(333, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(666, 17);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(76, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(152, 138);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // thongke
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 406);
+            this.ClientSize = new System.Drawing.Size(1600, 781);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btndong);
             this.Controls.Add(this.btninbanchay);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "thongke";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "thongke";
