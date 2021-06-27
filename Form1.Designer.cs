@@ -102,7 +102,7 @@
             // 
             this.btndangnhap.Image = ((System.Drawing.Image)(resources.GetObject("btndangnhap.Image")));
             this.btndangnhap.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btndangnhap.Location = new System.Drawing.Point(77, 112);
+            this.btndangnhap.Location = new System.Drawing.Point(91, 112);
             this.btndangnhap.Name = "btndangnhap";
             this.btndangnhap.Size = new System.Drawing.Size(95, 32);
             this.btndangnhap.TabIndex = 4;
