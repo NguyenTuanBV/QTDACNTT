@@ -88,7 +88,7 @@
             // btnthoat
             // 
             this.btnthoat.Image = ((System.Drawing.Image)(resources.GetObject("btnthoat.Image")));
-            this.btnthoat.Location = new System.Drawing.Point(280, 112);
+            this.btnthoat.Location = new System.Drawing.Point(260, 112);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(83, 32);
             this.btnthoat.TabIndex = 5;
