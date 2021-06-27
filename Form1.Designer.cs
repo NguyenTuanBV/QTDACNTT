@@ -88,7 +88,7 @@
             // btnthoat
             // 
             this.btnthoat.Image = ((System.Drawing.Image)(resources.GetObject("btnthoat.Image")));
-            this.btnthoat.Location = new System.Drawing.Point(288, 112);
+            this.btnthoat.Location = new System.Drawing.Point(280, 112);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(83, 32);
             this.btnthoat.TabIndex = 5;
@@ -102,7 +102,7 @@
             // 
             this.btndangnhap.Image = ((System.Drawing.Image)(resources.GetObject("btndangnhap.Image")));
             this.btndangnhap.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btndangnhap.Location = new System.Drawing.Point(91, 112);
+            this.btndangnhap.Location = new System.Drawing.Point(135, 112);
             this.btndangnhap.Name = "btndangnhap";
             this.btndangnhap.Size = new System.Drawing.Size(95, 32);
             this.btndangnhap.TabIndex = 4;
